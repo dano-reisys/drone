@@ -1,6 +1,6 @@
-build:
-  commands:
-    - echo "build successful" 
+#build:
+#  commands:
+#    - echo "build successful" 
 
 notify:
   email:
