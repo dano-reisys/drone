@@ -1,0 +1,13 @@
+build:
+  commands:
+    - echo "build successful" 
+
+notify:
+  email:
+    from: noreply@github.com
+    host: smtp.mailgun.org
+    username: $$SMTP_LOGIN
+    password: $$SMTP_PASSWORD
+    recipients:
+      - dan.olaru@reisys.com
+      - olarudan@gmail.com
