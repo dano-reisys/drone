@@ -1,10 +1,11 @@
 notify:
   email:
-    from: build@drone.reisys.io
+    from: no-reply@github.com
     host: smtp.mailgun.org
     username: $$SMTP_LOGIN
     password: $$SMTP_PASSWORD
     recipients:
-      - dan.olaru@reisys.com
+      - dan.olaru@reisystems.com
       - fxia@reisys.com
       - alexandr.perfilov@reisystems.com
+      - olarudan@gmail.com
