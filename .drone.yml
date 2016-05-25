@@ -1,7 +1,3 @@
-#build:
-#  commands:
-#    - echo "build successful" 
-
 notify:
   email:
     from: build@drone.reisys.io
@@ -10,6 +6,5 @@ notify:
     password: $$SMTP_PASSWORD
     recipients:
       - dan.olaru@reisys.com
-      - olarudan@gmail.com
       - fxia@reisys.com
       - alexandr.perfilov@reisystems.com
