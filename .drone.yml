@@ -1,6 +1,6 @@
 notify:
   email:
-    from: no-reply@github.com
+    from: postmaster@drone.reisys.io
     host: smtp.mailgun.org
     username: $$SMTP_LOGIN
     password: $$SMTP_PASSWORD
